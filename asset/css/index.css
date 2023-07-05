@@ -40,8 +40,6 @@ a {
     width: 100%;
 }
 
-img {}
-
 .justify {
     justify-content: space-between;
 }
@@ -131,6 +129,7 @@ header {
 .btn a:hover {
     background-color: #333333;
     color: #f6d365;
+    border: 1px solid #f6d365;
 }
 
 /* section start  */
@@ -245,7 +244,7 @@ header {
     width: 90%;
     margin: 10px auto;
     border: 9px solid rgb(41, 40, 40);
-    padding: 50px 25px;
+    /* padding: 50px 25px; */
     text-align: center;
 }
 
@@ -261,7 +260,7 @@ header {
 
 
 .box h5 {
-    font-size: 33px;
+    font-size: 29px;
     text-transform: uppercase;
     color: #333333;
     font-weight: 700;
@@ -344,7 +343,7 @@ header {
 
 .input_box input {
     display: block;
-    width: 40%;
+    width: 55%;
     border: none;
     outline: none;
     padding: 15px 20px;
@@ -531,4 +530,14 @@ p {
     .container {
         width: 1320px;
     }
+
+    .box {
+        padding: 50px 25px;
+
+    }
+
+    .box h5 {
+        font-size: 40px;
+    }
+
 }
