@@ -467,6 +467,11 @@ p {
         font-size: 30px;
     }
 
+    .box h3 {
+        font-size: 70px;
+
+    }
+
     .col_20 {
         width: 20%;
     }
